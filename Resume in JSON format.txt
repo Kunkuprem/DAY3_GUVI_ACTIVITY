@@ -1,0 +1,140 @@
+let student={
+    "name":"kunku prem kumar",
+    "mail":"kumar.premkunku@gmail.com",
+    "Experiences":{
+        Duration:"21 Months"
+},
+professional_Background : 
+{ 
+    "Experiences":"2 years",
+    "Domain":"Banking Domain",
+    "Types of Testing ":"Manual",
+    "Testing":"Functional Testing"
+    },
+organization: {
+    "Designation":"system Engineer",
+    "comppany":"Polaris Financial Technology Ltd",
+    "Tenure":"08-Aug-2011 to 20-may-2013",
+    "Doamin":[
+        {
+        "Banking":"Retail Banking and Investment Banking",
+        "Technology":"SQL ",
+        "Defect Management Tools":"ISOLVE"
+    }
+    ],
+    "Project profile":
+    {
+        "project1":"RBI-Reserve Bank of India",
+        "project2":"Capital Local Area Bank",
+        "project3":"Palakkadu Districk Cooperative Bank",
+        "project4":"Citi Bank",
+        "project5":"Qatar National Bank"
+    }
+    
+},    
+Responsibilities:{
+    "Roles":"understanding Business Requirement",
+    "Preparation":"Test Data,SIT Test cases,Test scenario",
+    "Testing":"SIT Testing,cross-Browser Testing,Functional Testing",
+    "Support":"UAT Support"
+},
+NonProfessionalBackground:{
+    "Date":"2013 To 2021",
+    "OCcupation":"Family Business",
+    "Reentry in software industry":"To continue my passion"
+    
+    },
+    EducationalBackground:[
+        {
+        "Course":"B.TECH IT",
+        "Passout":"2010"
+    },
+    {
+        "School":"S.J.N.S.J.V.M.H.S.SCHOOL",
+        "Standard":"+2",
+        "Passout":"2006"
+    },
+     {
+        "School":"S.J.N.S.J.V.M.H.S.SCHOOL",
+        "Standard":"10",
+        "Passout":"2004"
+    }
+    ],
+    PersoanlBackground:
+    {
+        "D.O.B":"12-nov-1988",
+        "Age":33,
+        "Address":"Valasaravakkam"
+    }
+    
+}  
+
+code1:
+console.log(student);
+
+output:
+{ name: 'kunku prem kumar',
+  mail: 'kumar.premkunku@gmail.com',
+  Experiences: { Duration: '21 Months' },
+  professional_Background: 
+   { Experiences: '2 years',
+     Domain: 'Banking Domain',
+     'Types of Testing ': 'Manual',
+     Testing: 'Functional Testing' },
+  organization: 
+   { Designation: 'system Engineer',
+     comppany: 'Polaris Financial Technology Ltd',
+     Tenure: '08-Aug-2011 to 20-may-2013',
+     Doamin: [ [Object] ],
+     'Project profile': 
+      { project1: 'RBI-Reserve Bank of India',
+        project2: 'Capital Local Area Bank',
+        project3: 'Palakkadu Districk Cooperative Bank',
+        project4: 'Citi Bank',
+        project5: 'Qatar National Bank' } },
+  Responsibilities: 
+   { Roles: 'understanding Business Requirement',
+     Preparation: 'Test Data,SIT Test cases,Test scenario',
+     Testing: 'SIT Testing,cross-Browser Testing,Functional Testing',
+     Support: 'UAT Support' },
+  NonProfessionalBackground: 
+   { Date: '2013 To 2021',
+     OCcupation: 'Family Business',
+     'Reentry in software industry': 'To continue my passion' },
+  EducationalBackground: 
+   [ { Course: 'B.TECH IT', Passout: '2010' },
+     { School: 'S.J.N.S.J.V.M.H.S.SCHOOL',
+       Standard: '+2',
+       Passout: '2006' },
+     { School: 'S.J.N.S.J.V.M.H.S.SCHOOL',
+       Standard: '10',
+       Passout: '2004' } ],
+  PersoanlBackground: { 'D.O.B': '12-nov-1988', Age: 33, Address: 'Valasaravakkam' } }
+
+code2:
+
+console.log(student.PersoanlBackground);
+
+output:
+
+{ 'D.O.B': '12-nov-1988', Age: 33, Address: 'Valasaravakkam' }
+
+code3:
+
+console.log(student.organization)
+
+output:
+
+{ Designation: 'system Engineer',
+  comppany: 'Polaris Financial Technology Ltd',
+  Tenure: '08-Aug-2011 to 20-may-2013',
+  Doamin: 
+   [ { Banking: 'Retail Banking and Investment Banking',
+       Technology: 'SQL ',
+       'Defect Management Tools': 'ISOLVE' } ],
+  'Project profile': 
+   { project1: 'RBI-Reserve Bank of India',
+     project2: 'Capital Local Area Bank',
+     project3: 'Palakkadu Districk Cooperative Bank',
+     project4: 'Citi Bank',
+     project5: 'Qatar National Bank' } }

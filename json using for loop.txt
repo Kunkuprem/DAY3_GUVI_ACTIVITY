@@ -1,0 +1,137 @@
+json data
+
+let student =[
+    {
+      "id": "1",
+      "name": "Lura Senger",
+      "email": "Xander_Collier@yahoo.com"
+    },
+    {
+      "id": "2",
+      "name": "Wilburn Weber",
+      "email": "Bennett_Kreiger11@yahoo.com"
+    },
+    {
+      "id": "3",
+      "name": "Tyrique Hahn",
+      "email": "Juston.Altenwerth@yahoo.com"
+    },
+    {
+      "id": "4",
+      "name": "Lenny Bailey",
+      "email": "Guiseppe_Hegmann@yahoo.com"
+    },
+    {
+      "id": "5",
+      "name": "Vladimir Keeling",
+      "email": "Louisa_Walsh18@hotmail.com"
+    },
+    {
+      "id": "6",
+      "name": "Kellie Crona",
+      "email": "Chandler_Abernathy@yahoo.com"
+    },
+    {
+      "id": "7",
+      "name": "Carolina White",
+      "email": "Royal50@hotmail.com"
+    },
+    {
+      "id": "8",
+      "name": "Alfredo Conn",
+      "email": "Clarabelle34@hotmail.com"
+    },
+    {
+      "id": "9",
+      "name": "Stan Shanahan",
+      "email": "Lamar.McClure@hotmail.com"
+    },
+    {
+      "id": "10",
+      "name": "Marvin Fay",
+      "email": "Osbaldo58@hotmail.com"
+    },
+    {
+      "id": "11",
+      "name": "Torrance Rau",
+      "email": "Orin45@gmail.com"
+    },
+    {
+      "id": "12",
+      "name": "Harold Gutmann MD",
+      "email": "Alyce.Stracke37@yahoo.com"
+    },
+    {
+      "id": "13",
+      "name": "Taryn Torphy",
+      "email": "Dean_Breitenberg71@hotmail.com"
+    },
+    {
+      "id": "14",
+      "name": "Bryana Lang",
+      "email": "Tatum.Ullrich@yahoo.com"
+    },
+    {
+      "id": "15",
+      "name": "Nyasia Green DDS",
+      "email": "Dino83@gmail.com"
+    },
+    {
+      "id": "16",
+      "name": "Nasir Gerhold",
+      "email": "Lilian_Bashirian8@hotmail.com"
+    },
+    {
+      "id": "17",
+      "name": "Raymundo Ritchie PhD",
+      "email": "Antwan.Schoen15@yahoo.com"
+    },
+    {
+      "id": "18",
+      "name": "Delmer Marvin",
+      "email": "Kiera62@yahoo.com"
+    },
+    {
+      "id": "19",
+      "name": "Rachel Wilkinson",
+      "email": "Foster_Conroy@gmail.com"
+    },
+    {
+      "id": "20",
+      "name": "Gladys Howell",
+      "email": "Constance.Labadie10@yahoo.com"
+    }];
+    
+using for loop code
+
+for(i=0;i<student.length;i++)
+   {
+       console.log(student[i].id,student[i].name,student[i].email)
+   }
+
+output:
+
+Output:
+
+1 Lura Senger Xander_Collier@yahoo.com
+2 Wilburn Weber Bennett_Kreiger11@yahoo.com
+3 Tyrique Hahn Juston.Altenwerth@yahoo.com
+4 Lenny Bailey Guiseppe_Hegmann@yahoo.com
+5 Vladimir Keeling Louisa_Walsh18@hotmail.com
+6 Kellie Crona Chandler_Abernathy@yahoo.com
+7 Carolina White Royal50@hotmail.com
+8 Alfredo Conn Clarabelle34@hotmail.com
+9 Stan Shanahan Lamar.McClure@hotmail.com
+10 Marvin Fay Osbaldo58@hotmail.com
+11 Torrance Rau Orin45@gmail.com
+12 Harold Gutmann MD Alyce.Stracke37@yahoo.com
+13 Taryn Torphy Dean_Breitenberg71@hotmail.com
+14 Bryana Lang Tatum.Ullrich@yahoo.com
+15 Nyasia Green DDS Dino83@gmail.com
+16 Nasir Gerhold Lilian_Bashirian8@hotmail.com
+17 Raymundo Ritchie PhD Antwan.Schoen15@yahoo.com
+18 Delmer Marvin Kiera62@yahoo.com
+19 Rachel Wilkinson Foster_Conroy@gmail.com
+20 Gladys Howell Constance.Labadie10@yahoo.com
+
+

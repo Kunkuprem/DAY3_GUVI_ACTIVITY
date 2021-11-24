@@ -1,0 +1,197 @@
+json data 
+
+
+
+let student =[
+    {
+      "id": "1",
+      "name": "Lura Senger",
+      "email": "Xander_Collier@yahoo.com"
+    },
+    {
+      "id": "2",
+      "name": "Wilburn Weber",
+      "email": "Bennett_Kreiger11@yahoo.com"
+    },
+    {
+      "id": "3",
+      "name": "Tyrique Hahn",
+      "email": "Juston.Altenwerth@yahoo.com"
+    },
+    {
+      "id": "4",
+      "name": "Lenny Bailey",
+      "email": "Guiseppe_Hegmann@yahoo.com"
+    },
+    {
+      "id": "5",
+      "name": "Vladimir Keeling",
+      "email": "Louisa_Walsh18@hotmail.com"
+    },
+    {
+      "id": "6",
+      "name": "Kellie Crona",
+      "email": "Chandler_Abernathy@yahoo.com"
+    },
+    {
+      "id": "7",
+      "name": "Carolina White",
+      "email": "Royal50@hotmail.com"
+    },
+    {
+      "id": "8",
+      "name": "Alfredo Conn",
+      "email": "Clarabelle34@hotmail.com"
+    },
+    {
+      "id": "9",
+      "name": "Stan Shanahan",
+      "email": "Lamar.McClure@hotmail.com"
+    },
+    {
+      "id": "10",
+      "name": "Marvin Fay",
+      "email": "Osbaldo58@hotmail.com"
+    },
+    {
+      "id": "11",
+      "name": "Torrance Rau",
+      "email": "Orin45@gmail.com"
+    },
+    {
+      "id": "12",
+      "name": "Harold Gutmann MD",
+      "email": "Alyce.Stracke37@yahoo.com"
+    },
+    {
+      "id": "13",
+      "name": "Taryn Torphy",
+      "email": "Dean_Breitenberg71@hotmail.com"
+    },
+    {
+      "id": "14",
+      "name": "Bryana Lang",
+      "email": "Tatum.Ullrich@yahoo.com"
+    },
+    {
+      "id": "15",
+      "name": "Nyasia Green DDS",
+      "email": "Dino83@gmail.com"
+    },
+    {
+      "id": "16",
+      "name": "Nasir Gerhold",
+      "email": "Lilian_Bashirian8@hotmail.com"
+    },
+    {
+      "id": "17",
+      "name": "Raymundo Ritchie PhD",
+      "email": "Antwan.Schoen15@yahoo.com"
+    },
+    {
+      "id": "18",
+      "name": "Delmer Marvin",
+      "email": "Kiera62@yahoo.com"
+    },
+    {
+      "id": "19",
+      "name": "Rachel Wilkinson",
+      "email": "Foster_Conroy@gmail.com"
+    },
+    {
+      "id": "20",
+      "name": "Gladys Howell",
+      "email": "Constance.Labadie10@yahoo.com"
+    }];
+    
+using for of code
+
+for(let stu of student)
+{
+    console.log(stu);
+}
+
+Output:
+
+{ id: '1',
+  name: 'Lura Senger',
+  email: 'Xander_Collier@yahoo.com' }
+{ id: '2',
+  name: 'Wilburn Weber',
+  email: 'Bennett_Kreiger11@yahoo.com' }
+{ id: '3',
+  name: 'Tyrique Hahn',
+  email: 'Juston.Altenwerth@yahoo.com' }
+{ id: '4',
+  name: 'Lenny Bailey',
+  email: 'Guiseppe_Hegmann@yahoo.com' }
+{ id: '5',
+  name: 'Vladimir Keeling',
+  email: 'Louisa_Walsh18@hotmail.com' }
+{ id: '6',
+  name: 'Kellie Crona',
+  email: 'Chandler_Abernathy@yahoo.com' }
+{ id: '7', name: 'Carolina White', email: 'Royal50@hotmail.com' }
+{ id: '8',
+  name: 'Alfredo Conn',
+  email: 'Clarabelle34@hotmail.com' }
+{ id: '9',
+  name: 'Stan Shanahan',
+  email: 'Lamar.McClure@hotmail.com' }
+{ id: '10', name: 'Marvin Fay', email: 'Osbaldo58@hotmail.com' }
+{ id: '11', name: 'Torrance Rau', email: 'Orin45@gmail.com' }
+{ id: '12',
+  name: 'Harold Gutmann MD',
+  email: 'Alyce.Stracke37@yahoo.com' }
+{ id: '13',
+  name: 'Taryn Torphy',
+  email: 'Dean_Breitenberg71@hotmail.com' }
+{ id: '14',
+  name: 'Bryana Lang',
+  email: 'Tatum.Ullrich@yahoo.com' }
+{ id: '15', name: 'Nyasia Green DDS', email: 'Dino83@gmail.com' }
+{ id: '16',
+  name: 'Nasir Gerhold',
+  email: 'Lilian_Bashirian8@hotmail.com' }
+{ id: '17',
+  name: 'Raymundo Ritchie PhD',
+  email: 'Antwan.Schoen15@yahoo.com' }
+{ id: '18', name: 'Delmer Marvin', email: 'Kiera62@yahoo.com' }
+{ id: '19',
+  name: 'Rachel Wilkinson',
+  email: 'Foster_Conroy@gmail.com' }
+{ id: '20',
+  name: 'Gladys Howell',
+  email: 'Constance.Labadie10@yahoo.com' }
+ 
+2.second code
+
+for(let stu of student)
+{
+    console.log(stu.id,stu.email);
+}
+
+Output:
+
+1 Xander_Collier@yahoo.com
+2 Bennett_Kreiger11@yahoo.com
+3 Juston.Altenwerth@yahoo.com
+4 Guiseppe_Hegmann@yahoo.com
+5 Louisa_Walsh18@hotmail.com
+6 Chandler_Abernathy@yahoo.com
+7 Royal50@hotmail.com
+8 Clarabelle34@hotmail.com
+9 Lamar.McClure@hotmail.com
+10 Osbaldo58@hotmail.com
+11 Orin45@gmail.com
+12 Alyce.Stracke37@yahoo.com
+13 Dean_Breitenberg71@hotmail.com
+14 Tatum.Ullrich@yahoo.com
+15 Dino83@gmail.com
+16 Lilian_Bashirian8@hotmail.com
+17 Antwan.Schoen15@yahoo.com
+18 Kiera62@yahoo.com
+19 Foster_Conroy@gmail.com
+20 Constance.Labadie10@yahoo.com
+
+
